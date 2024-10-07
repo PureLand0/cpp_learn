@@ -1,0 +1,1 @@
+//c++中class 和 structure没有区别 除了在一些性质上
