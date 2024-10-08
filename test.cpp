@@ -1,19 +1,24 @@
 #include <iostream>
 using namespace std;
 
-class Student
+class time
 {
-public:
-    char name[4];
-    int born;
-    bool male;
+    public:
+    char s[101];
+    int a=0;
+};
+
+class time2
+{
+    char  * s;
 };
 
 int main()
 {
-    Student *s = new Student();
-    s->born = 110;
-    cout << s->born << endl;
+    time s ;
+    cout << s.a <<endl;
+
+
 
     return 0;
 }
